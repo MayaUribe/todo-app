@@ -5,7 +5,7 @@
     "outDir": "dist",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es5",
+    "target": "es6",
     "module": "system",
     "moduleResolution": "node",
     "removeComments": true,
