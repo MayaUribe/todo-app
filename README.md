@@ -47,7 +47,7 @@ The built output is now in the `dist` folder - you can now start up a local deve
 
 ---
 
-##Hello World
+## Hello World
 
 Your Angular 2 seed is fully functioning!
 
