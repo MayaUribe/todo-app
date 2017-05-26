@@ -3,7 +3,6 @@ label {
     white-space: pre;
     word-break: break-word;
     padding: 15px 60px 15px 15px;
-    margin-left: 45px;
     display: block;
     line-height: 1.2;
     transition: color 0.4s;
@@ -68,4 +67,13 @@ label.completed {
 .toggle {
     background: none;
     height: 40px;
+}
+
+.checkbox {
+    margin-right: 25px;
+    margin-left: 20px;
+    display: block;
+    line-height: 1.2;
+    margin-top: 25px;
+    float: left;
 }

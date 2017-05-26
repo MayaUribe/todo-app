@@ -1,4 +1,5 @@
 <div class="view">
-    <label>{{item.text}}</label>
+    <input class="checkbox" type="checkbox" [(ngModel)]="completed" (click)="toggleCompleted($event.target.checked)" />
+    <label class="label" [ngClass]="{'completed': completed }">{{item.text}}</label>
     <button (click)="doneClicked()" class="destroy"></button>
 </div>

@@ -5,12 +5,12 @@ import TodoItem from '../todoitem/todoitem';
 @Component({
     selector: 'todo-list',
     templateUrl: 'app/todolist/todolist.html',
-    styleUrls: ['app/todolist/todolist.css'],
+    styleUrls: ['app/todolist/todolist.css', 'app/todoitem/todoitem.css'],
     directives: [TodoItem],
     encapsulation: ViewEncapsulation.Native
 })
 export default class TodoList {
-    newItem = 'test';
+    newItem = '';
     store: TodoStore;
 
     constructor(store: TodoStore) {

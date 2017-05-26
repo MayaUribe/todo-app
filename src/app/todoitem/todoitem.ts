@@ -8,13 +8,19 @@ import {TodoItem as ToDoItemModel} from './../store/todoStore';
     changeDetection: ChangeDetectionStrategy.OnPush
 })
 export default class TodoItem {
-    @Input()
-    item: ToDoItemModel;
+  completed = false;
 
-    @Output()
-    done = new EventEmitter();
+  @Input()
+  item: ToDoItemModel;
 
-    doneClicked() {
-        this.done.next(this.item);
-    }
+  @Output()
+  done = new EventEmitter();
+
+  doneClicked() {
+    this.done.next(this.item);
+  }
+
+  toggleCompleted(completed) {
+    this.completed = completed;
+  }
 }
