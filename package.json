@@ -1,7 +1,7 @@
 {
   "name": "todo-app",
   "version": "2.1.2",
-  "description": "A seed project for Angular 2 / TypeScript development",
+  "description": "Todo app",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ColinEberhardt/angular2-goldilocks-seed.git"
