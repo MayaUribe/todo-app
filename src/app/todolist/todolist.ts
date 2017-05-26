@@ -5,7 +5,7 @@ import TodoItem from '../todoitem/todoitem';
 @Component({
     selector: 'todo-list',
     templateUrl: 'app/todolist/todolist.html',
-    styleUrls: ['app/todolist/todolist.css', 'app/todoitem/todoitem.css'],
+    styleUrls: ['app/todolist/todolist.css'],
     directives: [TodoItem],
     encapsulation: ViewEncapsulation.Native
 })
